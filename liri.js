@@ -14,6 +14,7 @@ var request = require("request");
 //API keys
 var keys = require("./keys.js");
 
+//Initialize spotify API
 var spotify = new Spotify(keys.spotify);
 
 
